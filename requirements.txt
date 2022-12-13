@@ -1,1 +1,19 @@
+astroid==2.4.2
+atomicwrites==1.4.0
+attrs==20.2.0
+colorama==0.4.3
+coverage==5.3
+coverage-badge==1.0.1
+iniconfig==1.0.1
+isort==5.5.4
+lazy-object-proxy==1.5.1
+mccabe==0.6.1
+packaging==20.4
+pluggy==0.13.1
+py==1.9.0
+pylint==2.6.0
+pyparsing==2.4.7
+six==1.15.0
+toml==0.10.1
+wrapt==1.12.1
 

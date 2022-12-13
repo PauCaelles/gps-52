@@ -30,4 +30,4 @@ jobs:
       - name: Test with pytest
         run: |
           pip install pytest-cov
-          pytest --cov=gps-52 main.py
+          pytest --cov=myproj tests/

@@ -29,6 +29,5 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          pytest test.py --doctest-modules --junitxml=junit/test-results.xml
           pip install pytest-cov
-          pytest --cov test.py
+          pytest --cov=gps-52 main.py

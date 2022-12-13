@@ -31,4 +31,4 @@ jobs:
         run: |
           pytest test.py --doctest-modules --junitxml=junit/test-results.xml
           pip install pytest-cov
-          pytest --cov=gps-52 test.py
+          pytest --cov test.py

@@ -2,6 +2,7 @@
 import transform
 
 
+
 def main():
     """ core del la prova"""
     string = input("Introdueix un string:")
